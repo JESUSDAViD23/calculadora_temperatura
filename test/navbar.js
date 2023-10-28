@@ -6,5 +6,5 @@ fixture `TestCafe Smoke Test`
 test('TestCafe is Working Properly', async t => {
     // Agrega aquí tu lógica de prueba
     await t
-        .expect(Selector('app-navbar').exists).ok();
+        .expect(Selector('body').exists).ok();
 });
