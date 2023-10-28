@@ -6,7 +6,7 @@ fixture`Prueba de Temperatura`
 test('Prueba de conversión de temperatura', async t => {
     const input = Selector('#celsius');
     await t
-        .typeText(input, '25')
+        .typeNumber(input, '25')
         .expect(input.value).eql('25');
 
     const message = Selector('#mensaje').innerText;
