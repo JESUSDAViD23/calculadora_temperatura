@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture`Prueba de Conversión de Temperatura`
-    .page`https://calculadora-temperatura-ivory.vercel.app/kelvin`;
+    .page`https://calculadora-temperatura-ivory.vercel.app/inicio`;
 
     test('TestCafe is Working Properly', async t => {
         // Agrega aquí tu lógica de prueba
