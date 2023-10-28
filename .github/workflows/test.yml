@@ -21,15 +21,15 @@ jobs:
     - name: Install project dependencies
       run: npm install
 
-    - name: Run TestCafe tests
+    - name: Run TestCafe tests navbar
       run: testcafe chromium:headless ./test/navbar.js
     
-    - name: Run TestCafe tests
+    - name: Run TestCafe tests fahrenheit
       run: testcafe chromium:headless ./test/fahrenheit.js
 
-    - name: Run TestCafe tests
+    - name: Run TestCafe tests inicio
       run: testcafe chromium:headless ./test/inicio.js
 
-    - name: Run TestCafe tests
+    - name: Run TestCafe tests kelvin
       run: testcafe chromium:headless ./test/kelvin.js
 
